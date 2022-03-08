@@ -1,0 +1,15 @@
+@mixin box-cont {
+    position: relative;
+    background: #22223F;
+    height: 450px;
+    width: 850px;
+    margin: 110px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.container{
+    @include box-cont();
+}
